@@ -5,7 +5,7 @@ import { Container, Row, Col } from "react-bootstrap";
 // import Lottie from "lottie-react";
 // import SpaceBoy from "../../LottieFiles/coder.json"
 
-import Type from "./Type";
+// import Type from "./Type";
 import "./home.css";
 import {
   AiFillGithub,
@@ -35,7 +35,7 @@ function Home() {
               </h1>
 
               <div style={{ padding: 30 }} className="type">
-                <Type />
+                {/* <Type /> */}
               </div>
             </Col>
 
