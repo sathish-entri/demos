@@ -18,15 +18,15 @@ import { FaLinkedinIn } from "react-icons/fa";
 function Home() {
   return (
     <section>
-      <Container fluid className="home-section" id="home">
+      <h2>efoujh oeh h  hfu</h2>
+      {/* <Container fluid className="home-section" id="home">
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hi There!{" "}
-                {/* <span className="wave" role="img" aria-labelledby="wave">
-                  // 👋🏻
-                </span>{" "} */}
+                   👋🏻
+                
                
               </h1>
 
@@ -35,19 +35,14 @@ function Home() {
               </h1>
 
               <div style={{ padding: 30 }} className="type">
-                {/* <Type /> */}
+                <Type />
               </div>
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
-              {/* <img
-                src={homeIcon}
-                alt="home pic"
-                className="img-fluid img-fluid-adjust"
-                style={{ paddingTop: 50 }}
-              /> */}
+            
              
-               {/* <Lottie className="illustration" animationData={SpaceBoy} loop={true} /> */}
+               <Lottie className="illustration" animationData={SpaceBoy} loop={true} />
             </Col>
           </Row>
         </Container>
@@ -71,17 +66,7 @@ function Home() {
                   <AiFillGithub />
                 </a>
               </li>
-              {/* <li className="social-icons">
-                <a
-                  href="https://twitter.com/kumardotexe"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                  aria-label="twitter"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li> */}
+             
               <li className="social-icons">
                 <a
                   href="mailto:abishsathish2002@gmail.com"
@@ -119,7 +104,7 @@ sathish-chandrasekar-1107a730a"
             </ul>
           </Col>
         </Row>
-      </Container>
+      </Container> */}
       {/* <ScrollToTop /> */}
       {/* <About /> */}
     </section>
