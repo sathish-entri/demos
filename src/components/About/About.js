@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row } from "react-bootstrap";
 
-import ScrollToTop from "../ScrollToTop/ScrollToTop";
 
 import "./about.css";
 import Home2 from "../Home/Home2";
@@ -60,7 +59,7 @@ function About() {
 
         {/* <Github /> */}
       </Container>
-      <ScrollToTop />
+      {/* <ScrollToTop /> */}
     </Container>
   );
 }

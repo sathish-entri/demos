@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import { ThemeContext } from "../../Context/theme";
+
 
 import Container from "react-bootstrap/Container";
 import logoLight from "../../Assets/logo.png";
@@ -13,7 +13,7 @@ import "./navbar.css";
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
-  const [{ themename}] = useContext(ThemeContext);
+ 
 
   function scrollHandler() {
     if (window.scrollY >= 20) {
@@ -46,7 +46,7 @@ function NavBar() {
       <Container>
         <Navbar.Brand href="/" className="d-flex">
           <img
-            src={themename === "light" ? logoDark : logoLight}
+            src={ logoLight}
             className="img-fluid logo"
             alt="brand"
             style={{width: "48", height: "40"}}

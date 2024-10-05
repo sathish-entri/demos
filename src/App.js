@@ -1,18 +1,18 @@
 import React, { useState, useEffect } from "react";
-import Preloader from "../src/components/preloader/Preloader";
+// import Preloader from "../src/components/preloader/Preloader";
 import Navbar from "./components/navbar/Navbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/footer/Footer";
-import { ThemeContext } from "./Context/theme";
+
 import {
   BrowserRouter as Router,
   Route,
   Routes,
   Navigate,
 } from "react-router-dom";
-import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
+// import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Skills from "./components/Skills/Skills";
@@ -20,7 +20,6 @@ import Contact from "./components/contact/Contact";
 
 function App() {
   const [load, upadateLoad] = useState(true);
-  const [{ themename }] = React.useContext(ThemeContext);
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -31,12 +30,12 @@ function App() {
   }, []);
 
   return (
-    <div className={`${themename} app`}>
+    <div className={`app`}>
       <Router>
-        <Preloader load={load} />
+        {/* <Preloader load={load} /> */}
         <div className="App" id={load ? "no-scroll" : "scroll"}>
           <Navbar />
-          <ScrollToTop />
+          {/* <ScrollToTop /> */}
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/project" element={<Projects />} />

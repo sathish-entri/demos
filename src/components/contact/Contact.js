@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import ScrollToTop from "../ScrollToTop/ScrollToTop";
+// import ScrollToTop from "../ScrollToTop/ScrollToTop";
 
 import "./contact.css"
 import gmail from "../../Assets/gmail_logo.png";
@@ -52,7 +52,7 @@ sathish-chandrasekar-1107a730a"
           
         </Row>
       </Container>
-      <ScrollToTop />
+      {/* <ScrollToTop /> */}
     </Container>
   );
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
-import ScrollToTop from "../ScrollToTop/ScrollToTop";
+// import ScrollToTop from "../ScrollToTop/ScrollToTop";
 // import Lottie from "lottie-react";
 // import SpaceBoy from "../../LottieFiles/coder.json"
 
@@ -120,7 +120,7 @@ sathish-chandrasekar-1107a730a"
           </Col>
         </Row>
       </Container>
-      <ScrollToTop />
+      {/* <ScrollToTop /> */}
       {/* <About /> */}
     </section>
   );

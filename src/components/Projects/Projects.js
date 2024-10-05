@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import ScrollToTop from "../ScrollToTop/ScrollToTop";
+// import ScrollToTop from "../ScrollToTop/ScrollToTop";
 import ProjectCard from "./ProjectCards";
 
 import PrivateChat from "../../Assets/Projects/PrivateChat.png";
@@ -58,7 +58,7 @@ function Projects() {
           </Col> */}
         </Row>
       </Container>
-      <ScrollToTop />
+      {/* <ScrollToTop /> */}
     </Container>
   );
 }
