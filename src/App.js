@@ -31,22 +31,7 @@ function App() {
 
   return (
     <div className={`app`}>
-      <Router>
-        {/* <Preloader load={load} /> */}
-        <div className="App" id={load ? "no-scroll" : "scroll"}>
-          {/* <Navbar /> */}
-          {/* <ScrollToTop /> */}
-          <Routes>
-            <Route path="/" element={<Home />} />
-            {/* <Route path="/project" element={<Projects />} />
-            <Route path="/skills" element={<Skills />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/about" element={<About />} />
-            <Route path="*" element={<Navigate to="/" />} /> */}
-          </Routes>
-          {/* <Footer /> */}
-        </div>
-      </Router>
+    <h2>cuucugcwucwyce</h2>
     </div>
    
   );
