@@ -38,6 +38,6 @@ function App() {
 }
 
 export default App;
-// "homepage": "https://sathish-entri.github.io/SathishPortfolio",
+// "homepage": "https://sathish-entri.github.io/demos",
 // "predeploy": "npm run build",
 // "deploy": "gh-pages -d build", 
